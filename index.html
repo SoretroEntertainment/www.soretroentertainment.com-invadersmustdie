@@ -9,37 +9,12 @@
 	<style>
 	body {
 font-family: sans-serif;
-background-color: #FFFFFF;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
 }
-b{
-  color: black;
-}
-c{
-  color: black;
-}
-d{
-  color: black;
-  font-family: monospace;
-}
-div {
-  background-color: lightgray;
-  width: 80vw;
-  border: 3px solid gray;
-  padding: 10px;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
 a {
   text-decoration: none;
-}
-.box {
-  padding: 0px;
-  inline-size: 640px;
-  overflow-wrap: break-word;
 }
  img {
    max-width: 100%;
@@ -50,8 +25,66 @@ a {
     height: 5%;
   }
 }
+.day {
+  background-color: white;
+  div {
+  background-color: lightgray;
+  width: 80vw;
+  border: 3px solid gray;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  a{
+  color: black;
+  }
+  b{
+  color: black;
+  }
+  c{
+  color: black;
+  }
+  d{
+  color: black;
+  font-family: monospace;
+  }
+}
+.night {
+  background-color: black;
+  div {
+  background-color: #2C2C2C;
+  width: 80vw;
+  border: 3px solid #7F7F7F;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  a{
+  color: white;
+  }
+  b{
+  color: white;
+  }
+  c{
+  color: white;
+  }
+  d{
+  color: white;
+  font-family: monospace;
+  }
+}
 </style>
 <center>
+    <script>
+    var now = new Date();
+    if (now.getHours() > 7 && now.getHours() < 21) {
+    document.body.className += " day";
+    } else {
+    document.body.className += " night";
+    }
+	</script>
 	<body>
     </center>
 	<b><div><center>
@@ -64,7 +97,7 @@ is fully subjective on its own, whether you agree with it or not, unless the obj
 That said, I'm not planning to review drugs because I'm not a faggot. This "review" is more of a ranking, 
 all I have to do is just rate the songs from 0 to 10. But not so fast, I don't just give an album ten out of ten 
 and throw it to the trash can. I don't do that nerdy shit here, because let me ask you this. What's the purpose of music? 
-Enjoying it. That's the only fucking thing it matters. I pay attention to the music industry as little as possible 
+<i>Enjoying it.</i> That's the only fucking thing it matters. I pay attention to the music industry as little as possible 
 because it is so fucked you won't be able to enjoy music anymore because of it. More artists get exposed for pedophilia 
 and their fans make 20 minute reviews on an album and still give it 5 fucking stars. No, I'll rank music my way.
 You see, good musicians know, that if people are going to listen to their music, or shall we say their magnum opus, 
@@ -166,7 +199,7 @@ and anybody who's already been familiar and in love with the product is swag.
 <big>*</big> - <small>I'm not a fan of Tyler the Creator.</small>
 <center>
 <small>Release date: November 3rd, 2025
-<br>Last updated: April 23th, 2026
+<br>Last updated: April 30th, 2026
 <br>Author: Soretro</small>
 <p></p>
 <big><a href="javascript:history.back()">
