@@ -1,0 +1,68 @@
+body {
+font-family: sans-serif;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+a {
+  text-decoration: none;
+}
+ img {
+   max-width: 100%;
+   min-height: 100%;
+}
+@media (min-height: 333px) {
+  img {
+    height: 5%;
+  }
+}
+.day {
+  background-color: white;
+  div {
+  background-color: lightgray;
+  width: 80vw;
+  border: 3px solid gray;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  a{
+  color: black;
+  }
+  b{
+  color: black;
+  }
+  c{
+  color: black;
+  }
+  d{
+  color: black;
+  font-family: monospace;
+  }
+}
+.night {
+  background-color: black;
+  div {
+  background-color: #2C2C2C;
+  width: 80vw;
+  border: 3px solid #7F7F7F;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  a{
+  color: white;
+  }
+  b{
+  color: white;
+  }
+  c{
+  color: white;
+  }
+  d{
+  color: white;
+  font-family: monospace;
+  }
+}
